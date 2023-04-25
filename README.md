@@ -9,13 +9,13 @@ This gem was inspired by [voxpupuli-rubocop](https://github.com/voxpupuli/voxpup
 In your Gemfile, add the following:
 
 ```ruby
-gem 'voxpupuli-rubocop', '~> 1.1'
+gem 'pdk-rubocop', '~> 1.1'
 ```
 
 In your Rakefile, you can include the default Rake task:
 
 ```ruby
-require 'voxpupuli/rubocop/rake'
+require 'pdk/rubocop/rake'
 ```
 
 List your rake tasks with `bundle exec rake -T` 
@@ -38,4 +38,4 @@ After adding the inherited config, you may want to regenerate your todo file:
 
 ```
 bundle exec rubocop --regenerate-todo
-```:q!
+```
