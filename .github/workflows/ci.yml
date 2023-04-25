@@ -1,0 +1,15 @@
+name: "ci"
+
+on:
+  pull_request:
+    branches:
+      - "main"
+  workflow_dispatch:
+
+jobs:
+  spec:
+    name: "spec"
+    uses: "puppetlabs/cat-github-actions/.github/workflows/gem_ci.yml@main"
+    secrets: "inherit"
+    with:
+      rake_task: 'build'
