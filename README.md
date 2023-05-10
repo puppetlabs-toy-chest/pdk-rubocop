@@ -9,7 +9,7 @@ This gem was inspired by [voxpupuli-rubocop](https://github.com/voxpupuli/voxpup
 In your Gemfile, add the following:
 
 ```ruby
-gem 'pdk-rubocop', '~> 1.1'
+gem 'pdk-rubocop', '~> 0.1'
 ```
 
 In your Rakefile, you can include the default Rake task:
@@ -31,7 +31,7 @@ To use the default config, create a `.rubocop.yml` and add the following:
 ```
 ---
 inherit_gem:
-  pdk-rubocop: rubocop.yml
+  pdk-rubocop: module_rubocop.yml
 ```
 
 After adding the inherited config, you may want to regenerate your todo file:
