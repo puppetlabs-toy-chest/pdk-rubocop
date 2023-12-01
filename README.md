@@ -2,7 +2,7 @@
 
 PDK RuboCop is a Gem that provides sane defaults to use when developing Puppet Content.
 
-This gem was inspired by [voxpupuli-rubocop](https://github.com/voxpupuli/voxpupuli-rubocop)
+This gem was inspired by [voxpupuli-rubocop](https://github.com/voxpupuli/voxpupuli-rubocop).
 
 ## Usage
 
