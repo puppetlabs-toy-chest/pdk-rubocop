@@ -4,6 +4,12 @@ PDK RuboCop is a Gem that provides sane defaults to use when developing Puppet C
 
 This gem was inspired by [voxpupuli-rubocop](https://github.com/voxpupuli/voxpupuli-rubocop)
 
+## Warning
+
+This tool has not seen proper usage yet as its [implementation PR]() has not been merged. We have no current plans
+to introduce it in the near future. This tool is no longer officially supported by the DevX team and will not receive
+any updated in the forseeable future. It will also be archived in the near future.
+
 ## Usage
 
 In your Gemfile, add the following:
